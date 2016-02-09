@@ -5,3 +5,6 @@ authors:
   - Marcelo Boeira <me@marceloboeira.com>
 
 license: MIT
+
+scripts:
+  postinstall: "./script/post-install.sh"
