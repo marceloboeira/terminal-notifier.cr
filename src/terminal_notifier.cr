@@ -6,6 +6,10 @@ module TerminalNotifier
     TerminalNotifier.execute({ message: message })
   end
 
+  def self.notify(message : String, title : String)
+    TerminalNotifier.execute({ message: message, title: title })
+  end
+
   def self.execute(params : Hash)
     options = ""
 

@@ -2,8 +2,12 @@ require "./spec_helper"
 
 describe TerminalNotifier do
 
-  it "notifies" do
-    TerminalNotifier.notify("Test")
+  it "notifies with message" do
+    TerminalNotifier.notify("Michael")
+  end
+
+  it "notifies with message and title" do
+    TerminalNotifier.notify("Michael", "Scott")
   end
 
   it "sends custom message" do
