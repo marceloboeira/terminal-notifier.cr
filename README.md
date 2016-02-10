@@ -12,8 +12,8 @@ then add this to your application's `shard.yml`:
 
 ```yaml
 dependencies:
-  terminal_notifier:
-    github: marceloboeira/terminal_notifier.cr
+  terminal-notifier:
+    github: marceloboeira/terminal-notifier
 ```
 
 ## Usage
