@@ -15,4 +15,10 @@ describe TerminalNotifier do
 
     TerminalNotifier.execute(params)
   end
+
+  it "sends composed notification" do
+    params = { title: "The Office", message: "Episode S01E03" }
+
+    TerminalNotifier.execute(params)
+  end
 end

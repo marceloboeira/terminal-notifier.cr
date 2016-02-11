@@ -14,7 +14,7 @@ module TerminalNotifier
     options = ""
 
     params.each do |key, value|
-      options += "-#{key} #{value} "
+      options += "-#{key} #{value.inspect} "
     end
 
     `#{BIN_PATH} #{options}`
