@@ -21,4 +21,10 @@ describe TerminalNotifier do
 
     TerminalNotifier.execute(params)
   end
+
+  it "sends notification with sounds" do
+    params = { title: "The Office", message: "Thats what she said", sound: "Purr" }
+
+    TerminalNotifier.execute(params)
+  end
 end
