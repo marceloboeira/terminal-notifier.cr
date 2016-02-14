@@ -13,7 +13,7 @@ then add this to your application's `shard.yml`:
 ```yaml
 dependencies:
   terminal-notifier:
-    github: marceloboeira/terminal-notifier
+    github: marceloboeira/terminal-notifier.cr
 ```
 
 ## Usage
@@ -26,8 +26,6 @@ TerminalNotifier.notify("Hello World!", "Hello Title") # => Notifies with the He
 
 TerminalNotifier.execute({ title: "My nice title" }) # => Notifies with custom params
 ```
-
-
 
 #### Options
 > Credits to [julienXX/terminal-notifier](https://github.com/julienXX/terminal-notifier#options)
