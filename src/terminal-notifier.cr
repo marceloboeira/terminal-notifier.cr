@@ -1,5 +1,5 @@
 module TerminalNotifier
-  VERSION = "0.0.4"
+  VERSION = "0.1.0"
   BIN_PATH = "terminal-notifier"
 
   def self.notify(message : String)
