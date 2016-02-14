@@ -1,7 +1,6 @@
 require "./spec_helper"
 
 describe TerminalNotifier do
-
   it "notifies with message" do
     TerminalNotifier.notify("Michael")
   end
