@@ -26,7 +26,7 @@ module TerminalNotifier
 
   private def self.check_execute
     if !can_execute?
-      raise "#{BIN_PATH} missing: run  brew install terminal-notifier" 
+      raise "#{BIN_PATH} missing: run  brew install terminal-notifier"
     end
   end
 
